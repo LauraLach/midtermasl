@@ -42,7 +42,7 @@ iframe {
 summary {
   font-size: 30px;
 }
-details:hover {
+details details:hover {
   color: #28AFB0;
 }
 .menu {
@@ -96,7 +96,15 @@ details:hover {
   padding-bottom: 5px;
 }
 .history {
-  width: 70%;
   display: flex;
   justify-content: center;
+  padding: 0% 15%;
+}
+.largerSummary {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.largerSummary:hover {
+  color: #28AFB0;
 }
